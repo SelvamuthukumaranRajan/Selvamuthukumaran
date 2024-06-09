@@ -1,0 +1,86 @@
+{
+  "profileUrls": {
+    "email": "selvamuthu452000@gmail.com",
+    "github": "https://github.com/SelvamuthukumaranRajan",
+    "linkedin": "https://www.linkedin.com/in/iamsmk/",
+    "leetcode": "https://leetcode.com/u/iamsmk/",
+    "x": "https://twitter.com/iamSmkz/"
+  },
+  "introduction": [
+    "Hello! My name is",
+    "Selvamuthukumaran Rajan",
+    "Building Apps with Passion and Precision",
+    "A dedicated Software Developer from India.\nSpecializing in creating intuitive and powerful mobile applications for both Android and iOS.\nExplore my portfolio to see my digital works, or get in touch to discuss your next project!"
+  ],
+  "aboutMe": "Experienced Software Engineer specializing in mobile application development, with over 3 years of hands-on experience.\nProficient in delivering enterprise-grade software solutions and adept at leveraging the latest technologies to elevate user experiences.\nPassionate about staying updated with current trends and continuously refining skills to meet evolving industry demands.\nI enjoy playing games and travelling SOLO to new locations :)",
+  "skills": [
+    "Flutter",
+    "Android",
+    "iOS",
+    "Git",
+    "Firebase",
+    "React Native"
+  ],
+  "workExperience": [
+    {
+      "orgName": "Fanisko LLC",
+      "orgLink": "https://fanisko.com/",
+      "role": "Software Engineer - Mobile",
+      "startDate": "May 2022",
+      "endDate": "Present",
+      "description": [
+        "Working as a Software Engineer using Flutter and Native Android and iOS",
+        "I majorly work on Developing and maintaining cutting-edge fan engagement apps with Flutter, setting industry standards and delivering a modern, captivating user interface.",
+        "Architected and implemented an native SDK for loading digital fan experiences, now utilized by one of the world's largest sports councils.",
+        "Created a bidirectional communication module linking Flutter and native code, enhancing app performance and reliability through seamless intra and inter-app interactions.",
+        "Performed performance profiling and optimization to ensure smooth animations and fast load times, delivering a seamless user experience across diverse devices."
+      ]
+    },
+    {
+      "orgName": "Wahmi Softwares and Solutions",
+      "orgLink": "https://www.wahmisoft.com/",
+      "role": "Associate Software Engineer - Mobile",
+      "startDate": "March 2021",
+      "endDate": "May 2022",
+      "description": [
+        "Led mobile development projects through the entire app lifecycle, including concept, design, build, testing, deployment, and release.",
+        "I majorly worked on designing, developing and maintaining ecommerce apps using native mobile development technologies in Java, Kotlin and Swift(UIKit)",
+        "Incorporated MVVM architecture to facilitate a clear separation of concerns and improve code maintainability.",
+        "Integrated modern payment providers like Stripe to enhance in-app payment capabilities.",
+        "Also I got a chance to work in cross platform mobile application development using React native."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "ShowTime",
+      "description": "A Flutter application for listing movies based on two categories(NowPlaying and TopRated) and providing local search functionality.",
+      "projectLink": "https://github.com/SelvamuthukumaranRajan/ShowTime"
+    },
+    {
+      "title": "NotifyMe",
+      "description": "Flutter app with push notifications using Firebase, supporting both foreground and background notifications.",
+      "projectLink": "https://github.com/SelvamuthukumaranRajan/NotifyMe"
+    },
+    {
+      "title": "Eatly",
+      "description": "Native Android food delivery app with support for local caching using SQLite.",
+      "projectLink": "https://github.com/SelvamuthukumaranRajan/Eatly"
+    },
+    {
+      "title": "Shopify",
+      "description": "Android app featuring a product list and search functionality implemented with Jetpack Compose.",
+      "projectLink": "https://github.com/SelvamuthukumaranRajan/Shopify"
+    },
+    {
+      "title": "GithubMob",
+      "description": "Flutter app showcasing a signed-in GitHub repository list with the latest commits, utilizing Getx for state management and the MVVM architecture.",
+      "projectLink": "https://github.com/SelvamuthukumaranRajan/GithubMob"
+    },
+    {
+      "title": "MySolutions",
+      "description": "Solved popular DSA problems in Java to enhance my skills.",
+      "projectLink": "https://github.com/SelvamuthukumaranRajan/MySolutions"
+    }
+  ]
+}
