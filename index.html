@@ -1,24 +1,9 @@
+<!--Prod Index file-->
+
 <!DOCTYPE html>
 <html>
 <head>
-    <!--
-      If you are serving your web app in a path other than the root, change the
-      href value below to reflect the base path you are serving from.
-
-      The path provided below has to start and end with a slash "/" in order for
-      it to work correctly.
-
-      For more details:
-      * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
-
-      This is a placeholder for base href that will be replaced by the value of
-      the `--base-href` argument provided to `flutter build`.
-    -->
-<!-- To run in local-->
-<!--    <base href="/">-->
-<!--    To Deploy in Server-->
     <base href="./">
-
     <meta charset="UTF-8">
     <meta content="IE=Edge" http-equiv="X-UA-Compatible">
     <meta name="description" content="A new Flutter project.">
@@ -27,66 +12,149 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <meta name="apple-mobile-web-app-title" content="iamsmk">
-    <link rel="apple-touch-icon" href="./icons/Icon-192.png">
-    <link rel="apple-touch-icon" sizes="192x192" href="./apple-touch-icon.png">
+    <link rel="apple-touch-icon" href="./web/icons/Icon-192.png">
+    <link rel="apple-touch-icon" sizes="192x192" href="./web/apple-touch-icon.png">
 
     <!-- Favicon -->
-<!--    <link rel="icon" type="image/png" href="favicon.png"/>-->
-
     <title>iamsmk</title>
-    <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
-    <link rel="icon" type="image/x-icon" href="./favicon.ico">
-    <link rel="shortcut icon" href="./favicon.ico">
-    <link rel="manifest" href="./manifest.json">
-    <link rel="icon" type="image/png" sizes="192x192" href="./android-chrome-192x192.png">
-    <link rel="icon" type="image/png" sizes="512x512" href="./android-chrome-512x512.png">
-
+    <link rel="icon" type="image/png" sizes="16x16" href="./web/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./web/favicon-32x32.png">
+    <link rel="icon" type="image/x-icon" href="./web/favicon.ico">
+    <link rel="shortcut icon" href="./web/favicon.ico">
+    <link rel="manifest" href="./web/manifest.json">
+    <link rel="icon" type="image/png" sizes="192x192" href="./web/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="./web/android-chrome-512x512.png">
 
     <script>
-    // The value below is injected by flutter build, do not touch.
-    const serviceWorkerVersion = "1424632089";
-
+        var serviceWorkerVersion = "{{flutter_service_worker_version}}";
     </script>
-    <!-- This script adds the flutter initialization JS code -->
-    <script src="./flutter.js" defer></script>
+    <script src="./web/flutter.js" defer></script>
 </head>
 <body>
 <script>
     window.addEventListener('load', function(ev) {
-      // Download main.dart.js
-      _flutter.loader.loadEntrypoint({
-        serviceWorker: {
-          serviceWorkerVersion: serviceWorkerVersion,
-        }
-      }).then(function(engineInitializer) {
-        return engineInitializer.initializeEngine();
-      }).then(function(appRunner) {
-        return appRunner.runApp();
-      });
+        _flutter.loader.load({
+            serviceWorker: {
+                serviceWorkerVersion: serviceWorkerVersion,
+            }
+        }).then(function(engineInitializer) {
+            return engineInitializer.initializeEngine();
+        }).then(function(appRunner) {
+            return appRunner.runApp();
+        });
     });
-
 </script>
 <script>
-  document.addEventListener('wheel', function(e) {
-    e.ctrlKey && e.preventDefault();
-  }, {
-    passive: false,
-  });
-
+    document.addEventListener('wheel', function(e) {
+        e.ctrlKey && e.preventDefault();
+    }, {
+        passive: false,
+    });
 </script>
 <script>
-  window.addEventListener('keydown', function(e) {
-    if (event.metaKey || event.ctrlKey) {
-      switch (event.key) {
-        case '=':
-        case '-':
-          event.preventDefault();
-          break;
-      }
-    }
-  });
-
+    window.addEventListener('keydown', function(e) {
+        if (e.metaKey || e.ctrlKey) {
+            switch (e.key) {
+                case '=':
+                case '-':
+                    e.preventDefault();
+                    break;
+            }
+        }
+    });
 </script>
 </body>
 </html>
+
+
+<!--Dev Index file-->
+
+<!--<!DOCTYPE html>-->
+<!--<html>-->
+<!--<head>-->
+<!--    &lt;!&ndash;-->
+<!--      If you are serving your web app in a path other than the root, change the-->
+<!--      href value below to reflect the base path you are serving from.-->
+
+<!--      The path provided below has to start and end with a slash "/" in order for-->
+<!--      it to work correctly.-->
+
+<!--      For more details:-->
+<!--      * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base-->
+
+<!--      This is a placeholder for base href that will be replaced by the value of-->
+<!--      the `&#45;&#45;base-href` argument provided to `flutter build`.-->
+<!--    &ndash;&gt;-->
+<!--    <base href="$FLUTTER_BASE_HREF">-->
+
+<!--    <meta charset="UTF-8">-->
+<!--    <meta content="IE=Edge" http-equiv="X-UA-Compatible">-->
+<!--    <meta name="description" content="A new Flutter project.">-->
+
+<!--    &lt;!&ndash; iOS meta tags & icons &ndash;&gt;-->
+<!--    <meta name="apple-mobile-web-app-capable" content="yes">-->
+<!--    <meta name="apple-mobile-web-app-status-bar-style" content="black">-->
+<!--    <meta name="apple-mobile-web-app-title" content="iamsmk">-->
+<!--    <link rel="apple-touch-icon" href="icons/Icon-192.png">-->
+
+<!--    &lt;!&ndash; Favicon &ndash;&gt;-->
+<!--    &lt;!&ndash;    <link rel="icon" type="image/png" href="favicon.png"/>&ndash;&gt;-->
+
+<!--    <title>iamsmk</title>-->
+<!--    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">-->
+<!--    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">-->
+<!--    <link rel="icon" type="image/x-icon" href="favicon.ico">-->
+<!--    <link rel="shortcut icon" href="favicon.ico">-->
+<!--    <link rel="manifest" href="manifest.json">-->
+<!--    <link rel="apple-touch-icon" sizes="192x192" href="apple-touch-icon.png">-->
+<!--    <link rel="icon" type="image/png" sizes="192x192" href="android-chrome-192x192.png">-->
+<!--    <link rel="icon" type="image/png" sizes="512x512" href="android-chrome-512x512.png">-->
+
+
+<!--    <script>-->
+<!--        // The value below is injected by flutter build, do not touch.-->
+<!--        var serviceWorkerVersion = null;-->
+
+<!--    </script>-->
+<!--    &lt;!&ndash; This script adds the flutter initialization JS code &ndash;&gt;-->
+<!--    <script src="flutter.js" defer></script>-->
+<!--</head>-->
+<!--<body>-->
+<!--<script>-->
+<!--    window.addEventListener('load', function(ev) {-->
+<!--      // Download main.dart.js-->
+<!--      _flutter.loader.loadEntrypoint({-->
+<!--        serviceWorker: {-->
+<!--          serviceWorkerVersion: serviceWorkerVersion,-->
+<!--        }-->
+<!--      }).then(function(engineInitializer) {-->
+<!--        return engineInitializer.initializeEngine();-->
+<!--      }).then(function(appRunner) {-->
+<!--        return appRunner.runApp();-->
+<!--      });-->
+<!--    });-->
+
+<!--</script>-->
+<!--<script>-->
+<!--    document.addEventListener('wheel', function(e) {-->
+<!--      e.ctrlKey && e.preventDefault();-->
+<!--    }, {-->
+<!--      passive: false,-->
+<!--    });-->
+
+<!--</script>-->
+<!--<script>-->
+<!--    window.addEventListener('keydown', function(e) {-->
+<!--      if (event.metaKey || event.ctrlKey) {-->
+<!--        switch (event.key) {-->
+<!--          case '=':-->
+<!--          case '-':-->
+<!--            event.preventDefault();-->
+<!--            break;-->
+<!--        }-->
+<!--      }-->
+<!--    });-->
+
+<!--</script>-->
+<!--</body>-->
+<!--</html>-->
