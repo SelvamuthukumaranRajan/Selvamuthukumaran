@@ -4,12 +4,12 @@ const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 
 const RESOURCES = {"favicon-16x16.png": "665972bb6a1b0b450ea1448f6167fde2",
-"flutter_bootstrap.js": "ba7e4ef38762830cb351f6d18473c8f3",
+"flutter_bootstrap.js": "5c00518b8e2744709b388ff0441eb4f9",
 "faviconold.png": "71bd80b3d224b5c2873f95e8fad8036a",
 "version.json": "8637f5644b65384f298085f05a053c69",
 "favicon.ico": "d5ff9b52296bea6a422c0b573a6b7fb8",
-"index.html": "8329cf20084383a7acef6ca25ca5c513",
-"/": "8329cf20084383a7acef6ca25ca5c513",
+"index.html": "17c31139390398de9302ced8c51ad99b",
+"/": "17c31139390398de9302ced8c51ad99b",
 "android-chrome-192x192.png": "9b2cc578f45f0b8869dba7c17ad95748",
 "apple-touch-icon.png": "ae5c8ea0b4f508d291898847e6773864",
 "main.dart.js": "8600722c5bd0c5807050534802768b98",
