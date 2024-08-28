@@ -1,18 +1,18 @@
 {
   "profileUrls": {
-    "email": "selvamuthu452000@gmail.com",
+    "email": "rajanselvamuthukumaran@gmail.com",
     "github": "https://github.com/SelvamuthukumaranRajan",
     "linkedin": "https://www.linkedin.com/in/iamsmk/",
     "leetcode": "https://leetcode.com/u/iamsmk/",
     "x": "https://twitter.com/iamSmkz/"
   },
   "introduction": [
-    "Hello! My name is",
-    "Selvamuthukumaran Rajan",
-    "Building Apps with Passion and Precision",
-    "A dedicated Software Developer from India.\nSpecializing in creating intuitive and powerful mobile applications for both Android and iOS.\nExplore my portfolio to see my digital works, or get in touch to discuss your next project!"
+    "Hi there!",
+    "I'm Selva.",
+    "Crafting Apps with Passion and Precision.",
+    "As a Software Developer, I specialize in creating intuitive apps for Android and iOS. Check out my portfolio or reach out to discuss your next project!"
   ],
-  "aboutMe": "Experienced Software Engineer specializing in mobile application development, with over 3 years of hands-on experience.\nProficient in delivering enterprise-grade software solutions and adept at leveraging the latest technologies to elevate user experiences.\nPassionate about staying updated with current trends and continuously refining skills to meet evolving industry demands.\nI enjoy playing games and travelling SOLO to new locations :)",
+  "aboutMe": "Experienced Software Engineer with 3+ years in mobile app development. Skilled in delivering enterprise-grade solutions and utilizing the latest technologies to enhance user experiences. Passionate about staying current with industry trends and continuously improving skills. Enjoys gaming & solo travel :)",
   "skills": [
     "Flutter",
     "Android",
@@ -29,11 +29,11 @@
       "startDate": "May 2022",
       "endDate": "Present",
       "description": [
-        "Working as a Software Engineer using Flutter and Native Android and iOS",
-        "I majorly work on Developing and maintaining cutting-edge fan engagement apps with Flutter, setting industry standards and delivering a modern, captivating user interface.",
-        "Architected and implemented an native SDK for loading digital fan experiences, now utilized by one of the world's largest sports councils.",
-        "Created a bidirectional communication module linking Flutter and native code, enhancing app performance and reliability through seamless intra and inter-app interactions.",
-        "Performed performance profiling and optimization to ensure smooth animations and fast load times, delivering a seamless user experience across diverse devices."
+        "Delivered a native SDK for digital fan experiences, enhancing fan interaction for a leading sports council.",
+        "Developed and maintained Flutter-based fan engagement apps, improving UI appeal and user satisfaction.",
+        "Optimized code architecture with GetX, Provider, and BLoC for scalability and future-proofing.",
+        "Created a communication module between Flutter and native code to enhance app performance.",
+        "Improved app performance with profiling and optimization for faster load times and smoother animations."
       ]
     },
     {
@@ -43,28 +43,33 @@
       "startDate": "March 2021",
       "endDate": "May 2022",
       "description": [
-        "Led mobile development projects through the entire app lifecycle, including concept, design, build, testing, deployment, and release.",
-        "I majorly worked on designing, developing and maintaining ecommerce apps using native mobile development technologies in Java, Kotlin and Swift(UIKit)",
-        "Incorporated MVVM architecture to facilitate a clear separation of concerns and improve code maintainability.",
-        "Integrated modern payment providers like Stripe to enhance in-app payment capabilities.",
-        "Also I got a chance to work in cross platform mobile application development using React native."
+        "Oversaw mobile app development from concept to release, ensuring complete project delivery.",
+        "Applied MVVM architecture to enhance code maintainability and streamline development.",
+        "Integrated Stripe to improve in-app payment capabilities.",
+        "Created role-based screen stacks to enhance accessibility.",
+        "Implemented password less authentication with Magic Link for better security and user convenience."
       ]
     }
   ],
   "projects": [
-    {
-      "title": "ShowTime",
-      "description": "A Flutter application for listing movies based on two categories(NowPlaying and TopRated) and providing local search functionality.",
-      "projectLink": "https://github.com/SelvamuthukumaranRajan/ShowTime"
-    },
     {
       "title": "NotifyMe",
       "description": "Flutter app with push notifications using Firebase, supporting both foreground and background notifications.",
       "projectLink": "https://github.com/SelvamuthukumaranRajan/NotifyMe"
     },
     {
+      "title": "SpendWise",
+      "description": "Flutter app lets users track income and expenses with ease, offering a clear transaction summary to keep their finances organized",
+      "projectLink": "https://github.com/SelvamuthukumaranRajan/SpendWise"
+    },
+    {
+      "title": "ShowTime",
+      "description": "Flutter app for listing movies in \"Now Playing\" and \"Top Rated\" categories with local search functionality.",
+      "projectLink": "https://github.com/SelvamuthukumaranRajan/ShowTime"
+    },
+    {
       "title": "Eatly",
-      "description": "Native Android food delivery app with support for local caching using SQLite.",
+      "description": "Android food delivery app with support for local caching using SQLite.",
       "projectLink": "https://github.com/SelvamuthukumaranRajan/Eatly"
     },
     {
@@ -74,8 +79,13 @@
     },
     {
       "title": "GithubMob",
-      "description": "Flutter app showcasing a signed-in GitHub repository list with the latest commits, utilizing Getx for state management and the MVVM architecture.",
+      "description": "Flutter app showing signed-in GitHub repositories and their latest commits, using Getx for state management and MVVM architecture.",
       "projectLink": "https://github.com/SelvamuthukumaranRajan/GithubMob"
+    },
+    {
+      "title": "NativeConnect",
+      "description": "Flutter app manages data transfer between Flutter and native components, including images and text.",
+      "projectLink": "https://github.com/SelvamuthukumaranRajan/bi-directional-communication"
     },
     {
       "title": "MySolutions",
